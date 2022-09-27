@@ -1,0 +1,109 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+#root {
+  height: 100%;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+}
+header ul a {
+  text-decoration: none;
+  font-size: 1.2em;
+  color: #02537d;
+}
+header ul a:hover {
+  color: #038cb8;
+}
+
+main {
+  height: 100%;
+}
+main .title {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+main .text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.login {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.login__form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.login form {
+  padding: 0 2em 2em 2em;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: baseline;
+  margin-top: 10em;
+  background: bisque;
+}
+.login form button {
+  margin-top: 40px;
+  width: 100%;
+}
+.login form div {
+  margin-top: 1em;
+}
+
+.contacts {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+.contacts__block-info {
+  margin-top: 1em;
+  padding: 0 2em 2em 2em;
+  background: yellowgreen;
+}
+.contacts__block-info table {
+  margin-top: 1em;
+  width: 100%;
+  border-collapse: collapse;
+}
+.contacts__block-info thead {
+  background: #f5e8d0;
+}
+.contacts__block-info td, .contacts__block-info th {
+  padding: 5px;
+  border: 1px solid #333;
+}
+.contacts__block-info tbody tr {
+  background: bisque;
+}
+.contacts__create-contact {
+  background: bisque;
+  padding: 0 2em 2em 2em;
+}
+
+footer {
+  text-align: center;
+  height: 200px;
+  background-color: #02537d;
+}
+
+/*# sourceMappingURL=styles.css.map */
