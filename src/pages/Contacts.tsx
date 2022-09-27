@@ -2,7 +2,7 @@ import React, {ChangeEvent, FC, useEffect, useState} from 'react';
 import {Contact} from "../types/typesForContacts";
 import {onInputHandler} from "../helpers/onInputHandler";
 
-type SaveChanges = (id: number) => any
+type SaveChanges = (id: number) => void
 
 const Contacts: FC = () => {
 
